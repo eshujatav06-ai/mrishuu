@@ -2,23 +2,65 @@
 <html>
 <head>
 <title>Instagram Followers Shop</title>
+<style>
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+h1 {
+  color: #E1306C; /* Instagram pink */
+  margin-top: 30px;
+}
+h2 {
+  margin-top: 20px;
+}
+.package {
+  border: 2px solid #E1306C;
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+button {
+  background-color: #E1306C;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+button:hover {
+  background-color: #c1275b;
+}
+img.qr {
+  margin-top: 15px;
+  width: 150px;
+  height: 150px;
+}
+</style>
 </head>
-
-<body style="text-align:center;font-family:sans-serif;">
+<body>
 
 <h1>Instagram Followers Shop</h1>
-
 <p>Yaha Instagram followers aur likes milte hai</p>
 
 <h2>Packages</h2>
+<div class="package">1000 Followers - ₹50</div>
+<div class="package">5000 Followers - ₹200</div>
+<div class="package">10000 Followers - ₹350</div>
 
-<p>1000 Followers - ₹50</p>
-<p>5000 Followers - ₹200</p>
-<p>10000 Followers - ₹350</p>
+<h2>Order Now</h2>
+<p>QR code scan kare ya button se WhatsApp khol kar order kare:</p>
+<img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/your_number_here" alt="WhatsApp QR Code">
 
+<br>
 <button onclick="window.location.href='https://wa.me/your_number_here';">
 Order Now via WhatsApp
 </button>
 
-</body>
-</html>
+</body
